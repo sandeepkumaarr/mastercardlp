@@ -1,0 +1,401 @@
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="This is the AMP Boilerplate.">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+    <!-- Import other AMP Extensions here -->
+    <style amp-custom>
+      .header {
+        background-image: url(https://www.socialbeat.in/mastercardlp/images/banner.png);
+        height:auto;
+      }
+
+      body{
+        font-family: sans-serif;
+      }
+
+      .partneringtext{
+        padding: 10px;
+      }
+
+     .headerlogo{
+          display:flex;
+          flex-direction: column;
+          align-items: center;          
+        }
+
+      .logo{
+        margin-top:20px;
+      }
+
+      .masterlogo{
+        margin-top: 20px;
+      }
+
+      .subheader{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+      }
+
+      .subchilds{
+        margin-top: 20px;
+      }
+
+      .middlechild{
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .forms{
+        width:100%;
+        height: auto;
+        background-color: #2C296B;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+      }
+      .forminputs{
+        height: 30px;
+        display: block;
+        width:100%;
+        margin-top:20px;
+        padding: 4px;
+        font-size: 14px;
+        border:0px;
+        }
+
+        .subheading{
+          color:white;
+          font-size:24px;
+          text-align: center;
+        }
+
+        .button{
+          font-size: 20px;
+          width:100%;
+          height: auto;
+          background-color:#EF4136;
+          color:white;
+          border:0px;
+        }
+
+        .whyads{
+            display:flex;
+            flex-direction:column;
+            color:#2C296B;
+            background-color: #F6F5FA;
+        }
+
+        .whychild{
+            display:flex;
+            flex-direction:column;
+        }
+
+        .whychilds{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .whytext{
+          margin:30px;
+          text-align: center;
+        }
+
+        .whyadsh{
+          text-align: center;
+          font-size: 30px;
+          font-weight: bolder;
+          margin-top:50px;
+        }
+
+        .partnering{
+          display: flex;
+          flex-direction: column;
+          color:#2C296B;
+        }
+
+        .cashback{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color:#2C296B;
+        }
+
+        .cashback>p{
+          font-size: 20px;
+          color:white;
+          font-weight: bolder;
+          padding: 5px;
+        }
+
+        .cashback>button{
+          font-size: 25px;
+          padding: 10px;
+          background-color: #EF4136;
+          border:0px;
+          color:white;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-bottom: 20px;
+        } 
+
+        .copyright{
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          color:#2C296B;
+         align-items: center;
+        }
+
+        
+
+        @media (min-width:768px){
+          .forminputs{
+            font-size:20px;
+          }
+
+          .subheading{
+            font-size:30px;
+          }
+
+          .button{
+            font-size:25px;
+            font-weight:700;
+
+          }
+
+          .middlechild{
+          font-weight:600;
+          font-size: 20px;
+        }
+
+        .cashback>p{
+          font-size: 24px;
+
+        }
+
+        
+        }
+
+
+        @media (min-width: 1024px)  {
+        .headerlogo{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .logo{
+        margin-left: 30px;
+        margin-top:20px;
+      }
+
+      .masterlogo{
+        margin-top: 20px;
+        margin-right:60px
+      }
+
+      .header{
+        height: 565px;
+      }
+
+      .subheader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .forms{
+        width:255px;
+        height: 350px;
+        background-color: #2C296B;
+        margin-right:50px;
+        box-shadow: 3px 3px 5px 6px #ccc;     
+      }
+
+      .forminputs{
+        height: 18px;
+        display: block;
+        margin: 10px;
+        font-size: 14px;
+        margin-right:10px;
+        width:230px;
+        border:0px;
+       }
+       .button{
+          height: auto;
+          background-color:#EF4136;
+          color:white;
+          text-decoration: none;
+          border-radius:30px;
+          width: 150px;
+          margin-left:55px;
+          font-size: 18px;
+          border:0px;
+          margin-top:20px;
+        }
+
+        .middlechild{
+          font-weight:600;
+          font-size: 20px;
+        }
+
+        .subheading{
+            font-size:20px;
+          }
+
+        .whychilds{
+          display: flex;
+          justify-content: center;
+          margin-top:50px;
+        }
+
+        .whytext{
+          padding: 5px 50px 0px 50px;
+          text-align: center;
+          font-size: 17px;
+        }
+
+        
+
+        .whyadsh{
+          text-align: center;
+          font-size: 30px;
+          font-weight: bolder;
+        }
+
+        .whychild{
+            display:flex;
+            flex-direction:row;
+            align-items: center;
+            flex:1 1 1;
+        }
+
+        .partnering{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .partneringtext{
+          font-size: 19px;
+          padding: 60px;
+        }      
+
+        
+      }
+
+
+
+      
+</style>  
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+ 
+    <link rel="canonical" href=".">
+    <title>My AMP Page</title>
+  </head>
+  <body>
+<div class="header">
+    <div class="headerlogo">
+        <div class="logo">
+            <amp-img src="https://www.socialbeat.in/mastercardlp/images/sb-sign-logo.png" alt="googleads" height="60" width="180"></amp-img>
+        </div>
+
+        <div class="masterlogo">
+            <amp-img src="https://www.socialbeat.in/mastercardlp/images/mastercard_logo.png" alt="googleads" height="85" width="120"></amp-img>
+        </div>
+    </div>
+
+    <div class="subheader">
+
+      <div class="subchilds">
+          <amp-img src="https://www.socialbeat.in/mastercardlp/images/banner_img-1.png" alt="bannerimg" height="350" width="350"></amp-img>
+      </div>
+
+     
+
+      <div class="subchilds middlechild">
+          <h2 class="">Grow your Business With</h2>
+          <amp-img class="" src="https://www.socialbeat.in/mastercardlp/images/google_ads.png" alt="googleads" height="50" width="240"></amp-img>
+          <p class="">Get 100% Cashback*</p>
+          <p class="">on first Rs. 3,000 of Ad Spend on Google</p>
+          <p class="">+</p>
+          <p class="">$500 worth free digital consultation!</p>
+      </div>
+
+
+        <div class="forms subchilds">
+
+            <h1 class="subheading">Register to avail your offer</h1>
+              <form action-xhr="/submit-form" method="post">
+                  <input class="forminputs" type="text" placeholder="Name" name="name">
+                  <input class="forminputs" type="mobile" placeholder="Mobile" name="mobile">
+                  <input class="forminputs" type="email" placeholder="Email" name="email">
+                  <input class="forminputs" type="text" placeholder="Website URL" name="weburl">
+                  <input class="forminputs" type="text" placeholder="Account Name" name="accountname">
+                  <input class="forminputs" type="text" placeholder="Admin Email ID" name="adminid">
+                  <input class="forminputs button" type="submit" value="submit" >                       
+                      
+              </form>
+        </div>
+    </div>
+      
+  </div>
+
+  <div class="whyads">
+      <div>
+          <h2 class="whyadsh">
+              Why Google Ads?
+          </h2>
+      </div>
+
+      <div class="whychild">
+          <div class="whychilds">
+                  <amp-img class="whyimage" src="https://www.socialbeat.in/mastercardlp/images/section-1_img-1.png" alt="website visitors" height="130" width="145"></amp-img>
+                  <p class="whytext">Reach potential customers precisely when they are searching on Google for the things you offer.</p>
+          </div>
+
+          <div class="whychilds">
+                  <amp-img class="whyimage" src="https://www.socialbeat.in/mastercardlp/images/section-1_img-2.png" height="130" width="145"></amp-img>
+                  <p class="whytext">Drive more website visitors,boost online sales, capture leads or keep your customers engaged with Google Ads.</p>
+          </div>
+
+          <div class="whychilds">
+                  <amp-img class="whyimage whyimage3" src="https://www.socialbeat.in/mastercardlp/images/section-1_img-3.png" height="130" width="145"></amp-img>
+                  <p class="whytext">Multiple ad formats to showcase your offerings:text-based search ads, YouTube video ads, graphic display ads or in-app mobile ads.</p>
+          </div>
+      </div>
+  </div>
+
+  <div class="partnering">
+      <div class="partnerimage">
+        <amp-img src="https://www.socialbeat.in/mastercardlp/images/section-2_img-1.png" width="600" height="500"></amp-img>
+      </div>
+
+      <div class="partneringtext">
+        <p>Founded in 2012, Social Beat is one of India's leading digital marketing solutions company, enabling businesses to build their brands and achieve business results via the digital medium. Social Beat is a Premier Google Partner, recommended Facebook agency and a member of Facebook India SME Council and a trusted online expert with offices in Bangalore, Chennai & Mumbai. Their expertise with video story telling, as well as platforms such as Influencer and 22 Languages, makes us the ideal digital marketing solutions partner for brands and businesses as they seek to engage with audiences in both urban and rural markets. The 150-plus member team of digital experts offers integrated digital marketing solutions including brand strategy, social media marketing, digital media planning, content marketing, video production, Search Engine Optimisation, influencer marketing, UX, technology services and impactful language content.
+        </p>
+      </div>
+  </div>
+
+  <div class="cashback">
+    <p>
+      Get 100% Cashback* on first Rs. 3,000 of Ad Spend on Google!
+    </p>
+    <button>Get Started</button>
+  </div>
+
+  <div class="copyright">
+    <p>© Copyright 2019 Social Beat. All rights reserved.</p>
+  </div>
+
+  </body>
+</html>
