@@ -311,14 +311,24 @@
       font-size: 19px;
       padding: 60px;
     }    
+
+    .subchild1{
+      margin-left:90px;
+      margin-top:30px;
+    }
+
+    .subchild3{
+      margin-right:90px;
+      margin-top:30px;
+    }
   }
 
 
 
   
 </style> 
-   
-  </head>
+
+</head>
   <body>
 <div class="header">
     <div class="headerlogo">
@@ -333,7 +343,7 @@
 
     <div class="subheader">
 
-      <div class="subchilds">
+      <div class="subchilds subchild1">
           <amp-img src="https://www.socialbeat.in/mastercardlp/images/banner_img-1.png" alt="bannerimg" height="350" width="350"></amp-img>
       </div>
 
@@ -349,18 +359,17 @@
       </div>
 
 
-        <div class="forms subchilds">
-
+        <div class="forms subchilds subchild3">
             <h1 class="subheading">Register to avail your offer</h1>
-              <form action-xhr="/submit-form" method="post">
-                  <input class="forminputs" type="text" placeholder="Name" name="name">
-                  <input class="forminputs" type="mobile" placeholder="Mobile" name="mobile">
-                  <input class="forminputs" type="email" placeholder="Email" name="email">
-                  <input class="forminputs" type="text" placeholder="Website URL" name="weburl">
-                  <input class="forminputs" type="text" placeholder="Account Name" name="accountname">
-                  <input class="forminputs" type="text" placeholder="Admin Email ID" name="adminid">
-                  <input class="forminputs button" type="submit" value="submit" >                       
-                      
+              <form id="formResetSample" action-xhr="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeXKWut-qJh-CJqxSdykNPLkbf1BCLIAa9I6O4FfxiccFRWPg/formResponse" method="post">
+                  <input class="forminputs" type="text" placeholder="Name" name="entry.1410954918">
+                  <input class="forminputs" type="mobile" placeholder="Mobile" name="entry.1628472757">
+                  <input class="forminputs" type="email" placeholder="Email" name="entry.336258126">
+                  <input class="forminputs" type="text" placeholder="Website URL" name="entry.84538403">
+                  <input class="forminputs" type="text" placeholder="Account Name" name="entry.1668419185">
+                  <input class="forminputs" type="text" placeholder="Admin Email ID" name="entry.470211500">
+                  <input on="tap:formResetSample.clear" class="forminputs button" type="submit" value="submit" >                       
+                     
               </form>
         </div>
     </div>
